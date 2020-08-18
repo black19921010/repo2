@@ -14,6 +14,7 @@ public class RedisConfig {
     @Bean
     public RedisTemplate<String, Object> redisTemplate() {
         //测试修改
+        //新建dev
         return new RedisTemplate<>();
     }
 }
